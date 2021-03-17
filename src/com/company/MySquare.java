@@ -14,6 +14,7 @@ public class MySquare extends MyRect {
     @Override
     public void setWidth(double width) {
         super.setWidth(width);
+        super.setHeight(width);
     }
 
     @Override
@@ -24,6 +25,7 @@ public class MySquare extends MyRect {
     @Override
     public void setHeight(double height) {
         super.setHeight(height);
+        super.setWidth(height);
     }
 
     @Override
