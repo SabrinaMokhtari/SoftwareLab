@@ -7,17 +7,19 @@ public class MyRect {
     }
 
     public double getWidth() {
-        return -1;
+        return width;
     }
 
     public void setWidth(double width) {
+        this.width = width;
     }
 
     public double getHeight() {
-        return -1;
+        return height;
     }
 
     public void setHeight(double height) {
+        this.height = height;
     }
 
     private double width;
