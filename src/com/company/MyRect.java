@@ -10,6 +10,9 @@ public class MyRect {
     private double height;
 
     public double ComputeArea() throws Exception{
-        return 0;
+        if (width <= 0 || height <= 0){
+            throw new ArithmeticException("width or height are not positive");
+        }
+        return (width * height);
     }
 }
