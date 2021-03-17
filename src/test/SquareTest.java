@@ -4,9 +4,9 @@ import com.company.MyRect;
 import com.company.MySquare;
 import org.junit.jupiter.api.Test;
 
-import static org.junit.jupiter.api.AssertTrue.assertTrue;
-import static org.junit.jupiter.api.Assertions.assertEquals;
-import static org.junit.jupiter.api.Assertions.assertThrows;
+import static org.junit.jupiter.api.Assertions.*;
+
+
 
 public class SquareTest {
     @Test
@@ -16,7 +16,7 @@ public class SquareTest {
 
     @Test
     public void PositiveFloatWidth() throws Exception {
-        assertEquals(1.21, new MySquare(1.1).ComputeArea());
+        assertEquals(1.44, new MySquare(1.2).ComputeArea());
     }
 
 
