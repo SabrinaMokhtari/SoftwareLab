@@ -73,11 +73,9 @@ public class SquareTest {
     }
 
     @Test
-    public void Test(){
+    public void Test() throws Exception {
         MyRect myRect = new MySquare(8);
         myRect.setWidth(4);
         assertEquals(32, myRect.ComputeArea());
     }
-
-
 }
