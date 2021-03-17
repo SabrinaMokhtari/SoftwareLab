@@ -9,7 +9,7 @@ public class MyRect {
     private double width;
     private double height;
 
-    public double ComputeArea(){
+    public double ComputeArea() throws Exception{
         return 0;
     }
 }
