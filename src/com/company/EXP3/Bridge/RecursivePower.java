@@ -8,6 +8,9 @@ public class RecursivePower extends Power {
 
     @Override
     public int operation(int base, int exp) {
-        return 0;
+        if (exp == 0)
+            return 1;
+        else
+            return multiplication.mul(base , this.operation(base, exp-1));
     }
 }
