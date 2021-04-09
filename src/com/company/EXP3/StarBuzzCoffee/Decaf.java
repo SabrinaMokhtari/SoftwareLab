@@ -1,13 +1,8 @@
 package com.company.EXP3.StarBuzzCoffee;
 
-public class Decaf implements Beverage{
-    @Override
-    public String getDescription() {
-        return "";
-    }
-
-    @Override
-    public double cost() {
-        return 0;
+public class Decaf extends Beverage{
+    public Decaf(){
+        this.description = "Decaf";
+        this.cost = 1.99;
     }
 }

@@ -1,13 +1,9 @@
 package com.company.EXP3.StarBuzzCoffee;
 
-public class DarkRoast implements Beverage{
-    @Override
-    public String getDescription() {
-        return "";
+public class DarkRoast extends Beverage{
+    public DarkRoast(){
+        this.description = "Dark Roast";
+        this.cost = 0.99;
     }
 
-    @Override
-    public double cost() {
-        return 0;
-    }
 }

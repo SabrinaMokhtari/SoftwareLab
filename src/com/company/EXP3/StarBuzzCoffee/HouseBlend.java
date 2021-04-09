@@ -1,13 +1,8 @@
 package com.company.EXP3.StarBuzzCoffee;
 
-public class HouseBlend implements Beverage{
-    @Override
-    public String getDescription() {
-        return "";
-    }
-
-    @Override
-    public double cost() {
-        return 0;
+public class HouseBlend extends Beverage{
+    public HouseBlend(){
+        this.description = "HouseBlend";
+        this.cost = 0.89;
     }
 }

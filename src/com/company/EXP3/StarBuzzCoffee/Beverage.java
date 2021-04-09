@@ -1,7 +1,14 @@
 package com.company.EXP3.StarBuzzCoffee;
 
-public interface Beverage {
-    String description = "";
-    String getDescription();
-    double cost();
+public abstract class Beverage {
+    public String description = "";
+    public double cost = 0;
+
+    public String getDescription() {
+        return "Delicious " + this.description;
+    }
+
+    public double cost() {
+        return this.cost;
+    }
 }
