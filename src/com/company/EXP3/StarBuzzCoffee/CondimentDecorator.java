@@ -8,11 +8,11 @@ public abstract class CondimentDecorator extends Beverage{
 
     @Override
     public double cost() {
-        return this.beverage.cost();
+        return this.beverage.cost() + this.cost;
     }
 
     @Override
     public String getDescription() {
-        return this.beverage.getDescription();
+        return this.beverage.getDescription() + " with " + this.description;
     }
 }

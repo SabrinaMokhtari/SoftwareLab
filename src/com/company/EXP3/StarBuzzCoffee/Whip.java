@@ -10,11 +10,11 @@ public class Whip extends CondimentDecorator{
 
     @Override
     public String getDescription() {
-        return super.getDescription() + " with " + this.description;
+        return super.getDescription();
     }
 
     @Override
     public double cost() {
-        return super.cost() + this.cost;
+        return super.cost();
     }
 }
